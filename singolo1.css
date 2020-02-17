@@ -75,11 +75,10 @@ ul {
 
 .menu_item {
 	margin-right: 29px;
-	transition: color .3s linear;
 	position: relative;
 	cursor: pointer;
 }
-.menu_item:after {
+	li:after {
 	content: "";
 	background-color: #494e62;
 	width: 3px;
@@ -91,6 +90,15 @@ ul {
 	transform: translateY(-50%);
 }
 .menu_item:hover {
+	color: #f06c64;
+}
+.menu_item>a {
+	transition: color .3s linear;
+}
+.menu_item_active>a {
+	color: #f06c64;
+}
+.menu_item>a:hover {
 	color: #f06c64;
 }
 .menu_item:last-child {
