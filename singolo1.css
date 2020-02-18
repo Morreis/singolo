@@ -112,3 +112,33 @@ ul {
 .menu_item_active {
 	color: #f06c64;
 }
+.main {
+	height: 600px;
+	background-color: #f06c64;
+	border-bottom: solid 6px #ea676b;
+}
+.slider_container {
+	position: relative;
+}
+.slider_box {
+	display: flex;
+}
+.phone_vert {
+	padding: 53px 0 0 72px;
+}
+
+.phone_hor {
+	padding: 174px 0 0 73px;
+}
+.back {
+	position: absolute;
+	top: 52%;
+	left: 2px;
+	cursor: pointer;
+}
+.next {
+	position: absolute;
+	top: 52%;
+	right: 0;
+	cursor: pointer;
+}
