@@ -1,12 +1,20 @@
 						/*PORTFOLIO
 ______________________________________________________________________*/
+li:after{
+	display: none;
+}
+a:link, a:visited, a:active {
+	text-decoration: none;
+	color:#767e9e;
+}
+
 .portfolio{
 	padding: 65px 0 46px;
 	background-color: #2d303a;
 	border-bottom: solid 6px #323746;
 }
 
-.container>h2 {
+.portfolio_header {
 	margin-bottom: 22px;
 	font-family: 'Lato black', sans-serif;
 	font-size: 3rem;
@@ -47,6 +55,9 @@ ______________________________________________________________________*/
 	border: 1px solid #c5c5c5;
 	color: #c5c5c5;
 }
+ul>li:first-child>a {
+	color:#c5c5c5;
+}
 .portfolio_list_item:hover {
 	border-color: #c5c5c5;
 	color:#c5c5c5;
@@ -72,3 +83,73 @@ ______________________________________________________________________*/
 }
 /*____________________________________________________________________
  					About us*/
+.about	{
+	padding: 72px 0 62px;
+	background-color: #f2f2f2;
+	border-bottom: solid 6px #fff;
+}
+
+.about_header {
+margin-bottom: 27px;
+font-family: 'Lato Black', sans-serif;
+font-size: 3rem;
+font-weight: 400;
+line-height: 17.86px;
+color: #666d89;
+}
+.about_subtitle {
+	margin-bottom: 43px;
+	font-family: 'Lato Regular', sans-serif;
+	font-size: 1.8rem;
+	font-weight: 300;
+	color: #767e9e;
+	line-height: 30px;
+	text-align: justify;
+	letter-spacing: -0.33px;
+}
+.about_box {
+	display: flex;
+}
+.about_item {
+	width: 33,3%;
+	max-width: 300px;
+	overflow: hidden;
+}
+.about_item:first-child {
+	margin-right: 19px;
+}
+.about_item:last-child {
+	margin-left: 21px;
+}
+.about_pic {
+display: block;
+max-width: 100%;
+height: auto;
+}
+
+.about_name {
+	margin-top: 18px;
+	font-family: 'Lato Black', sans-serif;
+	font-size: 1.8rem;
+	font-weight: 400;
+	line-height: 17.86px;
+	letter-spacing: -.2px;
+	color: #666d89;
+}
+.about_item_subtitle {
+	margin: 10px 0 23px;
+	color: #767e9e;
+	font-family: 'Lato Regular', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 400;
+	line-height: 21.56px;
+	text-align: left;
+	letter-spacing:;
+}
+/*____________________________________________________________________
+ 					About us*/
+/*Social ICONS
+___________________________*/
+.social_icon_item {
+	margin-right: 4px;
+}
