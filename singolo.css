@@ -21,8 +21,9 @@ a {
 	margin: 0;
 	padding: 0;
 }
-a:link, a:visited, a:active {
+.menu_item>a:link, .menu_item>a:visited, .menu_item>a:active {
 	text-decoration: none;
+	color:#fff;
 }
 p {
 	margin: 0;
@@ -152,7 +153,7 @@ ____________________________________________________________________*/
 /*SERVICES
 _______________________________________________________*/
 .services {
-	padding: 63px 0 31px;
+	padding: 63px 0 32px;
 	background-color: #f2f2f2;
 	border-bottom: 6px solid #fff;
 }
@@ -225,15 +226,16 @@ _______________________________________________________*/
 }
 						/*PORTFOLIO
 ______________________________________________________________________*/
-li:after{
+.portfolio_menu_list>li:after{
 	display: none;
 }
-a:link, a:visited, a:active {
+.portfolio_item>a:link, .portfolio_item>a:visited, .portfolio_item>a:active {
 	text-decoration: none;
+	color:#767e9e;
 }
 
 .portfolio{
-	padding: 65px 0 46px;
+	padding: 60px 0 46px;
 	background-color: #2d303a;
 	border-bottom: solid 6px #323746;
 }
@@ -279,12 +281,20 @@ a:link, a:visited, a:active {
 	border: 1px solid #c5c5c5;
 	color: #c5c5c5;
 }
-ul>li:first-child>a {
+.portfolio_item_active>a {
+	color: #c5c5c5;
+}
+.portfolio_menu_list>li:first-child>a {
 	color:#c5c5c5;
 }
-.portfolio_list_item:hover {
+.portfolio_item>a:hover {
+	color: #c5c5c5;
+	transition: .2s linear;
+	}
+.portfolio_item:hover {
 	border-color: #c5c5c5;
 	color:#c5c5c5;
+	transition: .2s linear;
 }
 
 .portfolio_box {
@@ -379,7 +389,7 @@ ___________________________*/
 }
 /*QUOTE*/
 .quote {
-	padding: 66px 0 7px;
+	padding: 72px 0 7px;
 	background-color: #f06c64;
 	border-bottom: solid 6px #ea676b;
 }
@@ -461,6 +471,7 @@ ___________________________*/
 }
 a:link, a:visited, a:active {
     text-decoration: none;
+    color: #f0d8d9;
 }
 .quote_contact_list>li:first-child>a {
 	color: #f0d8d9;
@@ -520,6 +531,9 @@ ____________________________________________________*/
 .btn:hover{
     color: #d6564f;
     background-color: #f48c8f;
+}
+.quote_contact_list>li:after{
+	display: none;
 }
 /*FORM 
 __________________________________________________*/
