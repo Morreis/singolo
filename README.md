@@ -1,2 +1,1 @@
-# singolo
- 
+https://morreis.github.io/singolo/index.html
