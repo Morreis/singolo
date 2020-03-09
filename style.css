@@ -4,7 +4,8 @@ html {
 
 }
 body {
-	margin: 0;
+	width: 1020px;
+	margin:0 auto;
 	font-family: 'Lato regular', sans-serif;
 	background-color: #fff;
 	font-size: 1.6rem;
@@ -554,9 +555,9 @@ __________________________________________________*/
 .footer_copy {
 	color: #666d89;
 	font-size: 1.2rem;
-	margin: 10px 0 15px 3px;
+	margin: 10px 0 15px -20px;
 }
 .footer_social_icon {
-	margin-right: -4px;
+	margin-right: -25px;
 	margin-top: -3px;
 }
