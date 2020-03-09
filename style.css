@@ -28,6 +28,10 @@ a {
 	text-decoration: none;
 	color:#fff;
 }
+.menu_item_active>a:link, .menu_item_active>a:visited, .menu_item_active>a:active{
+	text-decoration: none;
+	color:#f06c64;
+}
 p {
 	margin: 0;
 }
